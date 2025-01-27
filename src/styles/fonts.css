@@ -1,0 +1,47 @@
+/* Oks Free */
+@font-face {
+  font-family: 'Oks Free';
+  src: url('/src/assets/fonts/Oks Free.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Polonium Regular */
+@font-face {
+  font-family: 'Polonium';
+  src: url('/src/assets/fonts/Polonium.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Polonium Bold */
+@font-face {
+  font-family: 'Polonium Bold';
+  src: url('/src/assets/fonts/Polonium-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Rostov */
+@font-face {
+  font-family: 'Rostov';
+  src: url('/src/assets/fonts/Rostov.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Usually Regular */
+@font-face {
+  font-family: 'Usually';
+  src: url('/src/assets/fonts/Usually-font.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Usually Bold */
+@font-face {
+  font-family: 'Usually Bold';
+  src: url('/src/assets/fonts/Usually-font-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}

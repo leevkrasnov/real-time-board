@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+@import './fonts.css';
 @import 'tailwindcss';
 
-body {
-  font-family: 'Lexend Giga', sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
+@theme {
+  --font-oks: 'Oks Free', sans-serif;
+  --font-polonium: 'Polonium', sans-serif;
+  --font-polonium-bold: 'Polonium Bold', sans-serif;
+  --font-rostov: 'Rostov', serif;
+  --font-usually: 'Usually', sans-serif;
+  --font-usually-bold: 'Usually Bold', sans-serif;
 }
