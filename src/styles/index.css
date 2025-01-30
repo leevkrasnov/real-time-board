@@ -1,6 +1,8 @@
 @import './fonts.css';
 @import 'tailwindcss';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-oks: 'Oks Free', sans-serif;
   --font-polonium: 'Polonium', sans-serif;
@@ -8,4 +10,20 @@
   --font-rostov: 'Rostov', serif;
   --font-usually: 'Usually', sans-serif;
   --font-usually-bold: 'Usually Bold', sans-serif;
+  --font-neutral: 'NeutralFace', sans-serif;
+  --font-neutral-bold: 'NeutralFace', sans-serif;
+
+  /* Dark Theme */
+  --color-indigo: #191720; /* Фон */
+  --color-lavander: #c7b2f7; /* Основной (кнопки, ссылки, акценты) */
+  --color-lilac: #a89bb4; /* Текст основной */
+  --color-rosewood: #e7a3ae; /* Акцент (бейджи, детали) */
+  --color-sand: #e3b9b1; /* Границы, неактивные элементы */
+
+  /* Light Theme */
+  --color-pearl: #f4f4f7; /* Фон */
+  --color-amethyst: #6f5ba7; /* Основной (кнопки, ссылки, акценты) */
+  --color-charcoal: #5b5460; /* Текст основной */
+  --color-mahogany: #8b6068; /* Акцент (бейджи, детали) */
+  --color-crimson: #c94b3e; /* Ошибки, предупреждения */
 }

@@ -45,3 +45,19 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* Neutral Face */
+@font-face {
+  font-family: 'NeutralFace';
+  src: url('/src/assets/fonts/NeutralFace.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Neutral Face Bold */
+@font-face {
+  font-family: 'NeutralFace Bold';
+  src: url('/src/assets/fonts/NeutralFace-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
